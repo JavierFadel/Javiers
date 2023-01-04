@@ -1,0 +1,56 @@
+.soon {
+    background-color: #F5F5F7;
+    padding: 4rem 15vw;
+    line-height: 1.2;
+ 
+    @include flex-x;
+    align-items: center;
+
+    &-img { 
+        margin-right: 1.5rem; 
+        img { width: 80%; }
+    }
+
+    &-text {
+        max-width: 50vw;
+        p { text-align: justify; }
+    }
+}
+
+.callout {
+    padding: 4rem 15vw 5rem 15vw;
+    background-color: $color-black;
+    line-height: 1.3;
+}
+
+.skill {
+    &-card {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        height: min-content;
+        width: 80vw;
+        padding: 4rem 0;
+        
+        border: 1px solid #e5e5e5;
+        border-radius: .5rem;
+        box-shadow: -2px 10px 23px -3px rgba(0,0,0,0.1);
+        
+        &--item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            height: 100%;
+            width: calc(80vw / 3);
+            padding: 0 2rem;
+            line-height: 1.2;
+            
+            &:not(:last-child) {
+                border-right: 1px solid #e5e5e5;
+            }
+        }
+    }
+}

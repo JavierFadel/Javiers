@@ -1,0 +1,21 @@
+.nav {
+    @include flexCenter;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+
+    &-links {
+        &__item {
+            margin-right: 1.5rem;
+            text-decoration: none;
+            color: $color-grey-dark;
+            font-weight: 400;
+        }
+    }
+
+    &-icons {
+        &__links {
+            margin-left: 1.2rem;
+            img { width: 22%; }
+        }
+    }
+}

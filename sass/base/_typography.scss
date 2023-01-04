@@ -1,0 +1,46 @@
+.text-heading_primary { 
+    font-size: 4rem; 
+    text-align: center;
+}
+
+.text-heading_secondary { 
+    font-size: 3rem; 
+    font-weight: 300;
+}
+
+.text-heading_tertiary {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.text-subheading_primary {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-subheading_secondary {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.text-content { text-align: center; }
+.text-emoji { font-size: 4rem; }
+.text-white { color: $color-white; }
+.text-bold {
+    font-style: italic;
+    font-weight: 700;
+}
+
+// TODO: use this method for changeable svg's color.
+// .twitter {
+//     filter: invert(100%) sepia(88%) saturate(2%) hue-rotate(115deg) brightness(102%) contrast(100%);
+
+//     &:hover {
+//         filter: invert(0%) sepia(6%) saturate(22%) hue-rotate(225deg) brightness(104%) contrast(105%);
+//     }
+// }
+
+// .github {
+//     filter: invert(100%) sepia(88%) saturate(2%) hue-rotate(115deg) brightness(102%) contrast(100%);   
+// }

@@ -1,0 +1,32 @@
+.footer {
+    background-color: $color-black;
+    padding: 4rem 0;
+    text-align: center;
+
+    &-socials {
+        margin: 0 10vw;
+
+        @include flex-x;
+        justify-content: center;
+
+        &_icon {
+            height: 2rem;
+            filter: invert(100%) sepia(88%) saturate(2%) hue-rotate(115deg) brightness(102%) contrast(100%);   
+            cursor: pointer;
+
+            &:not(:last-child) {
+                margin-right: 1.5rem;
+            }
+        }
+
+        // FIXME: footer element nesting is somewhere wrong.
+        a {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &-copyright {
+        font-weight: 300;
+        color: rgba($color: $color-white, $alpha: .5);
+    }
+}
