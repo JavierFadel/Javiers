@@ -41,8 +41,8 @@ $bp-lg: 800px;
         0 8px 8px rgba(0, 0, 0, 0.1),
         0 16px 16px rgba(0, 0, 0, 0.1);
 
-    @media (min-width: $bp-md) {
-        height: 350px;
+    @include respond(phone) {
+        height: 40vh;
     }
 
     &:before {
